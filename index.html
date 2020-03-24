@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Keeping up with current events</title>
+</head>
+<meta charset="utf-8">
+<meta name="author" content="Keelin Saranchuk" />
+<meta name="description" content="This is a web page made to inform the reader of some of the top stories and issues in our world" />
+<link href="https://fonts.googleapis.com/css?family=Bangers|Bebas+Neue|Montserrat&display=swap" rel="stylesheet">
+<style>
+
+    body {
+        background: #f6feff;
+        font-size: 17px;
+        font-family: 'Montserrat', sans-serif;
+        color: #5a5a5a;
+    }
+    h1 {
+
+        display: block;
+        border: 4px #d8031c;
+        background: #d8031c;
+        font-size: 55px;
+        color: white;
+        font-family: 'Bangers', cursive;
+        width: 620px;
+        padding: 10px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    h2{
+        background: #01016f;
+        font-size: 35px;
+        color: white;
+        font-family: 'Bebas Neue', cursive;
+        width: 250px;
+        padding: 10px;
+        margin: 20px;
+    }
+    h3{
+        background: #01016f;
+        font-size: 35px;
+        color: white;
+        font-family: 'Bebas Neue', cursive;
+        width: 145px;
+        padding: 10px;
+        margin: 20px;
+    }
+    h4{
+        background: #01016f;
+        font-size: 35px;
+        color: white;
+        font-family: 'Bebas Neue', cursive;
+        width: 180px;
+        padding: 10px;
+        margin: 20px;
+    }
+    a {
+        text-decoration: none;
+        font-size: 35px;
+        color: white;
+        font-family: 'Bebas Neue', cursive;
+    }
+    .wrapper{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 110px 2fr 30px;
+        grid-template-areas:"header header header"
+                            "content1 content2 content3"
+                            "footer footer footer";
+    }
+    .header{
+        grid-area: header;
+    }
+    .content1{
+        grid-area: content1;
+        padding: 15px;
+    }
+    .content2{
+        grid-area: content2;
+        padding: 15px;
+    }
+    .content3{
+        grid-area: content3;
+        padding: 15px;
+    }
+    .footer{
+        grid-area: footer;
+        color: #5a5a5a;
+    }
+
+    img {
+        border-radius: 20px;
+        border: solid black;
+    }
+    .aboutme{
+    background: #01016f;
+        font-size: 35px;
+        color: white;
+        font-family: 'Bebas Neue', cursive;
+        width: 210px;
+        padding: 10px;
+        margin: 20px;
+    }
+</style>
+<body>
+<div class="wrapper">
+    <div class="header">
+        <h1>KEEPING UP WITH CURRENT EVENTS</h1>
+    </div>
+
+    <div class="content1">
+        <h2><a href="australian.html"> AUSTRALIAN WILDFIRES</a></h2> <!--subtitle!-->
+        <a><img src="images/australian wildfires.jpg" height="250" alt="australian wildires"/></a>
+        <p> Australia is being ravaged by the worst wildfires seen in decades, with large swaths of the country devastated since the fire season began in late July.<br>
+            At least 28 people have died nationwide, and in the state of New South Wales (NSW) alone, more than 3,000 homes have been destroyed or damaged. State and federal authorities are struggling to contain the massive blazes, even with firefighting assistance from other countries, including the United States.<br>
+
+    </div>
+    <div class="content2">
+        <h3><a href="coronavirus.html"> CORONAVIRUS</a></h3> <!--subtitle!-->
+        <a><img src="images/coronavirus affected areas.jpg" height="250" alt="map of corona affected areas"/></a>
+        <p>An international outbreak of respiratory illness caused by a novel coronavirus has killed at least 56 people and sickened at least 1,900, according to the Chinese health authorities.<br>The outbreak began in Wuhan, China, at a market selling live poultry, seafood and wild animals. Now the virus has turned up in 11 other countries, including Japan, South Korea, France, Australia, and the United States. </p>
+    </div>
+    <div class="content3">
+        <h4><a href="climatechange.html">CLIMATE CHANGE</a></h4> <!--subtitle!-->
+        <a><img src="images/polar bear climate change.jpg" height="250" alt="climate change"/></a>
+        <p>Global climate change has already had observable effects on the environment.<br>
+         Effects that scientists had predicted in the past would result from global climate change are now occurring:
+        loss of sea ice, accelerated sea level rise and longer, more intense heat waves.<br>
+        Our own actions are having a huge impact on our world, it's as simple as that</p>
+    </div>
+    <div class="footer">
+        <p>Keelin Saranchuk - Web Designer</p>
+        <div class="aboutme">
+        <a href="aboutproject.html" alt="about my project">About my project</a>
+        </div>
+    </div>
+    </div>
+</body>
